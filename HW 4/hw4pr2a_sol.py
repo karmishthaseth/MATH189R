@@ -214,7 +214,7 @@ def plot_description(X_train, y_train, X_test, y_test):
 	plt.title('Testing descriptions')
 	plt.xlabel('regularization parameter')
 	plt.ylabel('Metric')
-	plt.savefig('hw4pr2a_description.png', format = 'png')
+	plt.savefig('DESCRIPTION_2a.png', format = 'png')
 	plt.close()
 	print('==> Plotting completed.')
 
@@ -269,7 +269,7 @@ if __name__ == '__main__':
 	plt.title('Convergence Plot on Binary MNIST Classification')
 	plt.xlabel('Iteration')
 	plt.ylabel('NLL')
-	plt.savefig('hw4pr2a_convergence.png', format = 'png')
+	plt.savefig('CONVERGENCE_2a.png', format = 'png')
 	plt.close()
 	print('==> Plotting completed.')
 	# STEP 3: Generate accuracy/precision plot=
