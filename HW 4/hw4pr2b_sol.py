@@ -123,7 +123,7 @@ def accuracy_vs_lambda(X_train, y_train_OH, X_test, y_test, lambda_list):
 	plt.title('Accuracy versus Lambda in Softmax Regression')
 	plt.xlabel('Lambda')
 	plt.ylabel('Accuracy')
-	plt.savefig('hw4pr2b_lva.png', format = 'png')
+	plt.savefig('ACCURACY_vs_LAMBDA_2b.png', format = 'png')
 	plt.close()
 	print('==> Plotting completed.')
 	# Find optimal lambda
@@ -172,6 +172,6 @@ if __name__ == '__main__':
 	plt.title('Convergence Plot on Softmax Regression with $\lambda = {:2.2f}$'.format(reg_opt))
 	plt.xlabel('Iteration')
 	plt.ylabel('NLL')
-	plt.savefig('hw4pr2b_convergence.png', format = 'png')
+	plt.savefig('CONVERGENCE_2b.png', format = 'png')
 	plt.close()
 	print('==> Plotting completed.')
